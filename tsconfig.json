@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", 
+    "module": "CommonJS", // we are working with modules
+    "moduleResolution": "Node10",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,                  // Enable interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,                     // Skip type checking of all declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+}
